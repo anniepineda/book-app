@@ -1,0 +1,29 @@
+{
+  "name": "book-app-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anniepineda/book-app-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anniepineda/book-app-2/issues"
+  },
+  "homepage": "https://github.com/anniepineda/book-app-2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "method": "^2.0.0",
+    "pg": "^7.15.0",
+    "superagent": "^5.1.2"
+  }
+}
