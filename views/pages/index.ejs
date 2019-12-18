@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <link rel="stylesheet" href="/styles/base.css">
 
-   <title>Book App</title>
+    <title>Book App</title>
 </head>
+
 <body>
-    <h1>Hello World</h1> 
+    <h1>Hello World</h1>
+
+    <form method="POST">
+        <fieldset>
+            <legend><strong>Search For Books</strong></legend>
+            <input type="text" name="search" placeholder="Search for books" required>
+            <label>Search By Author
+                <input type="radio" name="search" value="author" required>
+            </label>
+            <label>Search By Title
+                <input type="radio" name="search" value="title" required>
+            </label>
+        </fieldset>
+
+
+
+    </form>
 </body>
+
 </html>
