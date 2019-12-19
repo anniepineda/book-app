@@ -10,17 +10,19 @@
 <body>
     <h1>Hello World</h1>
 
-    <form method="POST">
+    <form method="POST" action='/searches'>
+
         <fieldset>
             <legend><strong>Search For Books</strong></legend>
-            <input type="text" name="search" placeholder="Search for books" required>
-            <label>Search By Author
-                <input type="radio" name="search" value="author" required>
-            </label>
-            <label>Search By Title
-                <input type="radio" name="search" value="title" required>
-            </label>
+            <input type="text" name="searchField" placeholder="Author or Title" required>
+            
+            <label for="author_radio">Search By Author</label>
+            <input type="radio" name="searchType" value="author" id="author_radio" required/>
+            
+            <label for="title_radio">Search By Title</label>
+            <input type="radio" name="searchType" value="title" id="title_radio" required/>
         </fieldset>
+        <button>Search!</button>
 
 
 

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+
+    <meta charset= "UTF-8">
+    <meta name= "viewport" content="width-device-width,initial-scale=1.0">
+    <meta http-equiv= "X-UA-Compatible" content="ie=edge">
+    <title>Book Results</title>
+
+</head>
+<body>
+    <h1>Book Results</h1>
+
+    <main>
+        <div>
+            <% bookDataArray.forEach(book => { %>
+                <h3><%= book.title %></h3>
+                <h4>by <%= book.author%></h4>
+                <h4> <%= book.description%></h4>
+            <% }) %>
+        </div>
+    </main>
+    
+</body>
+</html>
